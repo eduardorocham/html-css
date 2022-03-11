@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+        @font-face {
+            font-family: celta;
+            src: url(fontes/CELTG___.TTF);
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+        } /*Fonte interna - modo normal*/
+
+        #p1 {
+            font: italic normal 16px Times New Roman;
+        } /*Fonte interna - shorthand*/
+
+        #t2 {
+            font-family: 'Gideon Roman', cursive;
+        } /*Fonte externa - Google fonts*/
+
+        #p2 {
+            font-family: 'Lato', sans-serif;;
+        } /*Fonte externa - Google fonts*/
+
+        #t3 {
+            font-family: celta;
+            font-weight: normal;
+            font-size: 50px;
+        } /*Fonte externa - arquivo ttf*/
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sint minus sapiente a, vero eos nesciunt possimus nemo ad enim maiores eveniet quas adipisci ducimus ullam fuga officiis, beatae animi!</p>
+    <h2 id="t2">Título</h2>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sint minus sapiente a, vero eos nesciunt possimus nemo ad enim maiores eveniet quas adipisci ducimus ullam fuga officiis, beatae animi!</p>
+    <h2 id="t3">Título</h2>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non necessitatibus sapiente reiciendis ipsa, minus accusamus magni labore quod dolorem commodi debitis officiis! Tempore fugit earum sit et nostrum. Odit.</p>
+</body>
+</html>

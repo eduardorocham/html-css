@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, #BFBE9C, #4A4633);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #802922;
+    text-align: center;
+}
+
+h2 {
+    color: #004040;
+}

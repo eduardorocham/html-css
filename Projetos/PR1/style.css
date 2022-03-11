@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Red Hat Display;
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+
+:root {
+    --cor0: hsl(225, 100%, 94%);
+    --cor1: hsl(245, 75%, 52%);
+    --cor2: hsl(225, 100%, 98%);
+    --cor3: hsl(224, 23%, 55%);
+    --cor4: hsl(223, 47%, 23%);
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+}
+
+main > img {
+    display: block;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main > h1 {
+    text-align: center;
+    font-family: Red Hat Display;
+    color: var(--cor4);
+    font-weight: 900;
+}
+
+main p {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    color: var(--cor3);
+    font-weight: 500;
+}
+
+div p {
+    margin: auto;
+}
+
+#d {
+    margin-bottom: 20px;
+}
+
+#e {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    font-weight: 700;
+}
+
+#f {
+    color: var(--cor3);
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+}

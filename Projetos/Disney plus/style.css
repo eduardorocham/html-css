@@ -1,0 +1,30 @@
+@font-face {
+    font-family: metropolis;
+    src: url(fontes/Metropolis/Metropolis-Regular.otf);
+}
+body {
+    background-color: #0F1119;
+}
+
+header {
+    padding-top: 12px;
+    height: 40px;
+    font-family: metropolis;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
