@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset e Legende em Formulários</title>
+    <style>
+        label {
+            display: block;
+        }
+
+        input[type=submit] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="bla.html" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Nome: <br/>
+                <input type="text" name="nome">
+            </label>
+            <label>
+                Sobrenome: <br/>
+                <input type="text" name="sobrenome">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Empresa: <br/>
+                <input type="text" name="empresa">
+            </label>
+            <label>
+                Cargo: <br/>
+                <input type="text" name="cargo">
+            </label>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

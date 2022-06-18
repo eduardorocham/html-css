@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em Html</title>
+    <style>
+        table {
+            width: 600px;
+        }
+
+        td, th {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: gray;
+        }
+
+        tbody tr:hover {
+            background-color: rgb(197, 251, 197);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #DDD;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Html</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Item 1
+                </th>
+                <th>
+                    Item 2
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Linha-->
+            <tr>
+                <!--Coluna-->
+                <td>
+                    ...
+                </td>
+                <td>
+                    ...
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ...
+                </td>
+                <td>
+                    ...
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ...
+                </td>
+                <td>
+                    ...
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ...
+                </td>
+                <td>
+                    ...
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

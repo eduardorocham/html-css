@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+        @keyframes animacao {
+            0% {background-color: red; top: 0; left: 0;}
+            25% {background-color: green; top: 0; left: 200px;}
+            50% {background-color: yellow; top: 200px; left: 200px;}
+            75% {background-color: blue; top: 200px; left: 0;}
+            100% {background-color: red; top: 0; left: 0;} 
+        }
+
+        div {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            position: absolute;
+            animation-name: animacao;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
